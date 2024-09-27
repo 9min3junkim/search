@@ -87,7 +87,7 @@ const Dijkstra = (matrix) => {
         if (visitedSet.has(search)) continue;
         visitedSet.add(search);
 
-        // 맞닿은 노드 탐색
+        // 맞닿은 노드 탐색ㅂㅂ
         for (const [dx, dy] of moveDirections) {
             const newRow = currentRow + dx;
             const newCol = currentCol + dy;
